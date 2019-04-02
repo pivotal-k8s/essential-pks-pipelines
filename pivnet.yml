@@ -1,0 +1,11 @@
+---
+resources:
+  - name: pivnet
+    type: pivnet
+    source:
+    api_token: {{api_token}}
+    product_slug: essential_pks
+jobs:
+  - name: list
+    plan:
+      - task: reach
